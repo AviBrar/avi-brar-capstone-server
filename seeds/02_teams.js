@@ -16,7 +16,12 @@ exports.seed = async function (knex) {
             "team_description": "A wonderful Team",
             "contact_phone": "8896754536",
             "contact_email": "soccer@football.com",
-            "founding_year": 1950
+            "founding_year": 1950,
+            "goals": 0,
+            "goals_against": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0
         },
         {
             "id": 2,
@@ -28,7 +33,12 @@ exports.seed = async function (knex) {
             "team_description": "A wonderful Team",
             "contact_phone": "8896754536",
             "contact_email": "soccer@football.com",
-            "founding_year": 1963
+            "founding_year": 1963,
+            "goals": 0,
+            "goals_against": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0
         },
         {
             "id": 3,
@@ -40,7 +50,12 @@ exports.seed = async function (knex) {
             "team_description": "A wonderful Team",
             "contact_phone": "8896754536",
             "contact_email": "soccer@football.com",
-            "founding_year": 1969
+            "founding_year": 1969,
+            "goals": 0,
+            "goals_against": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0
         },
         {
             "id": 4,
@@ -52,7 +67,12 @@ exports.seed = async function (knex) {
             "team_description": "A wonderful Team",
             "contact_phone": "8896754536",
             "contact_email": "soccer@football.com",
-            "founding_year": 1924
+            "founding_year": 1924,
+            "goals": 0,
+            "goals_against": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0
         },
         {
             "id": 5,
@@ -64,7 +84,12 @@ exports.seed = async function (knex) {
             "team_description": "A wonderful Team",
             "contact_phone": "8896754536",
             "contact_email": "soccer@football.com",
-            "founding_year": 1938
+            "founding_year": 1938,
+            "goals": 0,
+            "goals_against": 0,
+            "wins": 0,
+            "draws": 0,
+            "losses": 0
         },
     ]);
   };
