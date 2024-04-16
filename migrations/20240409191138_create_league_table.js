@@ -6,7 +6,7 @@ exports.up = function(knex) {
     return knex.schema.createTable("leagues", (table) => {
       table.increments("id").primary();
       table.string("league_name").notNullable();
-      table.integer("league_teams").notNullable();
+      table.string("league_teams").notNullable();
       table.string("area").notNullable();
       table.string("country").notNullable();
       table.string("league_administrator").notNullable();

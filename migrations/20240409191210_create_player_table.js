@@ -19,6 +19,10 @@ exports.up = function(knex) {
       table.string("contact_phone").notNullable();
       table.string("player_phone").notNullable();
       table.string("player_email").notNullable();
+      table.integer("goals").notNullable();
+      table.integer("assists").notNullable();
+      table.integer("yellow_cards").notNullable();
+      table.integer("red_cards").notNullable();
       table.timestamp("created_at").defaultTo(knex.fn.now());
       table
         .timestamp("updated_at")
