@@ -18,12 +18,12 @@ exports.up = function(knex)  {
       table.string("team_description").notNullable();
       table.string("contact_phone").notNullable();
       table.string("contact_email").notNullable();
-      table.integer("founding_year").notNullable();
-      table.integer("goals").notNullable();
-      table.integer("goals_against").notNullable();
-      table.integer("wins").notNullable();
-      table.integer("draws").notNullable();
-      table.integer("losses").notNullable();
+      table.string("founding_year").notNullable();
+      table.string("goals").notNullable();
+      table.string("goals_against").notNullable();
+      table.string("wins").notNullable();
+      table.string("draws").notNullable();
+      table.string("losses").notNullable();
       table.timestamp("created_at").defaultTo(knex.fn.now());
       table
         .timestamp("updated_at")

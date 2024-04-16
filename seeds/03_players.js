@@ -16,7 +16,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player1@prim.com"
+            "player_email": "player1@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 2,
@@ -28,7 +32,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player2@prim.com"
+            "player_email": "player2@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 3,
@@ -40,7 +48,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player3@prim.com"
+            "player_email": "player3@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 4,
@@ -52,7 +64,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player4@prim.com"
+            "player_email": "player4@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 5,
@@ -64,7 +80,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player5@prim.com"
+            "player_email": "player5@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 6,
@@ -76,7 +96,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player6@prim.com"
+            "player_email": "player6@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 7,
@@ -88,7 +112,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player7@prim.com"
+            "player_email": "player7@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 8,
@@ -100,7 +128,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player8@prim.com"
+            "player_email": "player8@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 9,
@@ -112,7 +144,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player9@prim.com"
+            "player_email": "player9@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 10,
@@ -124,7 +160,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player10@prim.com"
+            "player_email": "player10@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 11,
@@ -136,7 +176,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player11@prim.com"
+            "player_email": "player11@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 12,
@@ -148,7 +192,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player12@prim.com"
+            "player_email": "player12@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 13,
@@ -160,7 +208,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player13@prim.com"
+            "player_email": "player13@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 14,
@@ -172,7 +224,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player14@prim.com"
+            "player_email": "player14@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 15,
@@ -184,7 +240,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player15@prim.com"
+            "player_email": "player15@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 16,
@@ -196,7 +256,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player16@prim.com"
+            "player_email": "player16@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 17,
@@ -208,7 +272,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player17@prim.com"
+            "player_email": "player17@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 18,
@@ -220,7 +288,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player18@prim.com"
+            "player_email": "player18@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 19,
@@ -232,7 +304,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player19@prim.com"
+            "player_email": "player19@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 20,
@@ -244,7 +320,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player20@prim.com"
+            "player_email": "player20@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 21,
@@ -256,7 +336,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player21@prim.com"
+            "player_email": "player21@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 22,
@@ -268,7 +352,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player22@prim.com"
+            "player_email": "player22@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 23,
@@ -280,7 +368,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player23@prim.com"
+            "player_email": "player23@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 24,
@@ -292,7 +384,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player24@prim.com"
+            "player_email": "player24@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 25,
@@ -304,7 +400,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player25@prim.com"
+            "player_email": "player25@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 26,
@@ -316,7 +416,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player26@prim.com"
+            "player_email": "player26@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 27,
@@ -328,7 +432,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player27@prim.com"
+            "player_email": "player27@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 28,
@@ -340,7 +448,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player28@prim.com"
+            "player_email": "player28@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 29,
@@ -352,7 +464,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player29@prim.com"
+            "player_email": "player29@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 30,
@@ -364,7 +480,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player30@prim.com"
+            "player_email": "player30@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 31,
@@ -376,7 +496,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player31@prim.com"
+            "player_email": "player31@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 32,
@@ -388,7 +512,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player32@prim.com"
+            "player_email": "player32@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 33,
@@ -400,7 +528,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player33@prim.com"
+            "player_email": "player33@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 34,
@@ -412,7 +544,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player34@prim.com"
+            "player_email": "player34@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 35,
@@ -424,7 +560,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player35@prim.com"
+            "player_email": "player35@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 36,
@@ -436,7 +576,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player36@prim.com"
+            "player_email": "player36@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 37,
@@ -448,7 +592,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player37@prim.com"
+            "player_email": "player37@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 38,
@@ -460,7 +608,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player38@prim.com"
+            "player_email": "player38@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 39,
@@ -472,7 +624,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player39@prim.com"
+            "player_email": "player39@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 40,
@@ -484,7 +640,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player40@prim.com"
+            "player_email": "player40@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 41,
@@ -496,7 +656,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player41@prim.com"
+            "player_email": "player41@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 42,
@@ -508,7 +672,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player42@prim.com"
+            "player_email": "player42@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 43,
@@ -520,7 +688,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player43@prim.com"
+            "player_email": "player43@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 44,
@@ -532,7 +704,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player44@prim.com"
+            "player_email": "player44@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 45,
@@ -544,7 +720,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player45@prim.com"
+            "player_email": "player45@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 46,
@@ -556,7 +736,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player46@prim.com"
+            "player_email": "player46@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 47,
@@ -568,7 +752,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player47@prim.com"
+            "player_email": "player47@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 48,
@@ -580,7 +768,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player48@prim.com"
+            "player_email": "player48@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 49,
@@ -592,7 +784,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player49@prim.com"
+            "player_email": "player49@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 50,
@@ -604,7 +800,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player50@prim.com"
+            "player_email": "player50@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 51,
@@ -616,7 +816,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player51@prim.com"
+            "player_email": "player51@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 52,
@@ -628,7 +832,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player52@prim.com"
+            "player_email": "player52@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 53,
@@ -640,7 +848,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player53@prim.com"
+            "player_email": "player53@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 54,
@@ -652,7 +864,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player54@prim.com"
+            "player_email": "player54@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         },
         {
             "id": 55,
@@ -664,7 +880,11 @@ exports.seed = async function (knex) {
             "contact_name": "Mary Freidman",
             "contact_phone": "9919919988",
             "player_phone": "5564453424",
-            "player_email": "player55@prim.com"
+            "player_email": "player55@prim.com",
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 0,
+            "red_cards": 0
         }
     ]);
   };

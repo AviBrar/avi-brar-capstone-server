@@ -3,23 +3,24 @@ const knex = require("knex")(require("../knexfile"));
 const getTeams = async (_req, res) => {
     try {
       const teams = await knex("teams")
+        .join("leagues", "teams.league_id", "leagues.id")
         .select(
-          "id",
-          "league_id",
-          "team_name",
-          "city",
-          "country",
-          "manager_name",
-          "team_description",
-          "contact_phone",
-          "contact_email",
-          "founding_year",
-          "goals",
-          "goals_against",
-          "wins",
-          "draws",
-          "losses",
-        )
+          "teams.id",
+          "leagues.league_name",
+          "teams.team_name",
+          "teams.city",
+          "teams.country",
+          "teams.manager_name",
+          "teams.team_description",
+          "teams.contact_phone",
+          "teams.contact_email",
+          "teams.founding_year",
+          "teams.goals",
+          "teams.goals_against",
+          "teams.wins",
+          "teams.draws",
+          "teams.losses",
+        );
       res.json(teams);
     } catch (e) {
       res.status(500).json({
@@ -31,26 +32,25 @@ const getTeams = async (_req, res) => {
 const findTeam = async (req, res) => {
   try {
     const teamfound = await knex("teams")
-      .where({
-        id: req.params.id,
-      })
+      .join("leagues", "teams.league_id", "leagues.id")
       .select(
-        "id",
-        "league_id",
-        "team_name",
-        "city",
-        "country",
-        "manager_name",
-        "team_description",
-        "contact_phone",
-        "contact_email",
-        "founding_year",
-        "goals",
-        "goals_against",
-        "wins",
-        "draws",
-        "losses",
+        "teams.id",
+        "leagues.league_name",
+        "teams.team_name",
+        "teams.city",
+        "teams.country",
+        "teams.manager_name",
+        "teams.team_description",
+        "teams.contact_phone",
+        "teams.contact_email",
+        "teams.founding_year",
+        "teams.goals",
+        "teams.goals_against",
+        "teams.wins",
+        "teams.draws",
+        "teams.losses",
       )
+      .where("teams.id", req.params.id);
     if (teamfound === 0) {
       return res.status(404).json({
         message: `team with ID ${req.params.id} not found`,
@@ -90,7 +90,7 @@ const updateTeam = async (req, res) => {
   ) {
     res.status(500).send({ message: "Invalid Email Address" });
     return;
-  } else if (req.body.contact_phone.length !== 17) {
+  } else if (req.body.contact_phone.length > 17) {
     res.status(500).send({
       message:
         "Invalid Phone Number Format, Must Use Format: +1 (XXX) XXX-XXXX",

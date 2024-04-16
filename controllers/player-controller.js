@@ -29,7 +29,11 @@ const findPlayer = async (req, res) => {
       "players.contact_name",
       "players.contact_phone",
       "players.player_phone",
-      "players.player_email"
+      "players.player_email",
+      "players.goals",
+      "players.assists",
+      "players.yellow_cards",
+      "players.red_cards"
     )
       .where("players.id", req.params.id);
 
