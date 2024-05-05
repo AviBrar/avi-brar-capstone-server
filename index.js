@@ -10,7 +10,7 @@ const PORT = process.env.PORT;
 const leagueRoutes = require("./routes/league-routes");
 const teamRoutes = require("./routes/team-routes");
 const playerRoutes = require("./routes/player-routes");
-const loginRoute = require("./routes/login-route");
+const authRoute = require("./routes/auth-route");
 
 app.use(express.json());
 app.use(cors());
@@ -22,7 +22,7 @@ app.use("/api/teams", teamRoutes);
 
 app.use("/api/players", playerRoutes);
 
-app.use("/login", loginRoute);
+app.use("/auth", authRoute);
 
 app.get("/", (_req, res) => res.send("Hello World!"));
 
