@@ -3,11 +3,6 @@ const knex = require("knex")(require("../knexfile"));
 const jwt = require("jsonwebtoken");
 
 const login = async (req, res) => {
-  const username = req.body.username;
-  const password = req.body.password;
-  const user = { username: username, password: password };
-
-  const accessToken = generateAccessToken(user);
   try {
     const user = await knex("user")
       .where({
